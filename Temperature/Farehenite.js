@@ -3,9 +3,11 @@ import { useContext } from 'react'
 import Converttotemp from './Converttotemp'
 function Farehenite() {
 
-const {valuef , valuechange ,convertc ,C} = useContext(Converttotemp)
+const {valuef , valuechange ,convertc } = useContext(Converttotemp)
 
-console.log(C)
+
+
+
   return (
     <div>
 
